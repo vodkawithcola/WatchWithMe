@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+}
+#head{
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: auto;
+  border-bottom: solid 2px black;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  margin: 10px auto 0;
+  padding: 0;
+  list-style: none;
+  display: table;
+  width: 700px;
+  text-align: center;
+}
+li {
+  display: table-cell;
+  position: relative;
+  padding: 20px 0;
+  width: 10%;
+}
+
+p::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25% ease-out;
+}
+
+p:hover::before{
+  transform: scale(1);
+  transform-origin: bottom left;
+}
+
+#filmy{
+	margin-left: 100px;
+	margin-top: 70px;
+	height: 320px;
+	width: 600px;
+	border: solid black 2px;
+}
+
+.ab{
+  text-decoration:none;
+  color: black;
+}
+
+
+#log{
+    height: 650px;
+    width: 400px;
+    margin-left: 120px;
+    font-size: 30px;
+    text-align: center;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+    float: left;
+    padding-top: 200px;}
+
+#input{
+  height: 30px;
+  width: 190px;
+}
+
+#logo{
+  height: 550px;
+  width: 550px;
+  float: right;
+  margin-right: 270px;
+  margin-top: 130px;
+}
+
+#header{
+  border-bottom: 2px black solid;
+  height: 50px;
+  width: 320px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#headerA{
+  border-bottom: 2px black solid;
+  height: 50px;
+  width: 320px;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 30px;
+  float:left;
+  margin-left: 180px;
+}
+
+#critis{
+  height: 515px;
+  width: 290px;
+  float: right;
+  margin-right: 300px;
+  margin-top: 50px;
+}
+
+#joker{
+  height: 515px;
+  width: 290px;
+  float: left;
+  margin-left: 90px;
+  margin-top: 100px;
+}
+
+#audience{
+  height: 515px;
+  width: 290px;
+  float: right;
+  margin-right:-360px;
+  margin-top: 450px;
+}
+
+#tekst{
+  height: 315px;
+  width: 500px;
+  margin-left:170px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+
+#tekstA{
+  height: 315px;
+  width: 500px;
+  margin-right:-450px;
+  padding-top: 180px;
+  float:right;
+  text-align: center;
+}
+
+#tekstB{
+  height: 315px;
+  width: 500px;
+  margin-right:850px;
+  margin-top:-60px;
+  float:right;
+  text-align: center;
+}
+
+#map{
+  height: 400px;
+  width: 700px;
+  border: 2px black solid;
+  float: right;
+  margin-right: 80px;
+  margin-top:120px;
+}
+
+#kont{
+  height: 315px;
+  width: 500px;
+  margin-left:-410px;
+  margin-top:170px;
+  float:left;
+  text-align: center;
+  padding-top:50px;
+}
+
+#kategoria{
+  height: 2370px;
+  width: 250px;
+  font-size: 30px;
+  text-align: center;
+  border-right: 2px black solid;
+  float: left;
+  padding-top: 200px;
+  min-height: 100%;
+}
+
+.pp{
+  font-size: 25px;
+}
+
+.a{
+  height: 470px;
+  width: 250px;
+  border-bottom: 2px black solid;
+  float:left;
+}
+
+.poster{
+  height: 300px;
+  width: 200px;
+  text-align: center;
+}
+
+.photo{
+  height: 300px;
+  width: 200px;
+  margin:auto;
+  margin-top:20px;
+  text-align: center;
+}
+
+.button {
+	box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	background-color:#a73f2d;
+	border:1px solid #241d13;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #7a2a1d;
+}
+.button:hover {
+	background-color:#b34332;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+#md{
+  margin-left: 55px;
+}
+
+#ns{
+  height: 100px;
+  width: 100px;
+  float: right;
+  margin-right: 600px;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+tr{
+  text-align: center;
+}
+
+#zaplac{
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  text-align: center;
+  float: right;
+  margin-right: 500px;
+}
+
+#kosztab{
+  margin-top: 200px;
+  margin-left: 300px;
+}
+
+#profil{
+  margin-left: 30%;
+  margin-top: 90px;
+  font-size: 20px;
+}
+
+.bor{
+  border-right: 2px solid black;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  width:320px;
+}
+
+.bora{
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  width:320px;
+}
+
+#imgprof{
+  margin-left: 47%;
+  margin-top: 130px;
+}
